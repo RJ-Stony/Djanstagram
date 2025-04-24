@@ -1,0 +1,106 @@
+# Django .gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Django stuff:
+*.log
+*.pot
+*~
+local_settings.py
+
+# SQLite database
+*.sqlite3
+/db.sqlite3-journal
+
+# Media
+media/
+
+# Static files
+staticfiles/
+# Uncomment if you collect static to STATIC_ROOT
+# static/
+
+# Environment variables file
+.env
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# pip logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pyenv
+.python-version
+
+# IDE/editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.iml
+
+# macOS
+.DS_Store
+
+# Test and coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# pytest cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# Docker
+*.pid
+
+# Logs
+logs/
+
+# Secrets and keys
+*.pem
+
+# Other
+*.log
